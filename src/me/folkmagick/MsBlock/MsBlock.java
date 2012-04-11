@@ -31,7 +31,6 @@ public class MsBlock extends JavaPlugin implements Listener {
 	public int _MINDISTANCE = 2;
 	public int _MAXDISTANCE = 10;
 	public int _SETDISTANCE = _MINDISTANCE;
-	//public String[] denySpawn = {"enderdragon","giant","ghast","irongolem","magmacube","slime"};
 	public static final List<String> denySpawn = Arrays.asList("enderdragon","giant","ghast","irongolem","magmacube","slime");
 	
 	
