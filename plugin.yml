@@ -1,6 +1,8 @@
 name: MsBlock
 version: 1.0
 author: floatswitch
+website: http://www.folkmagick.com/
+source: https://github.com/hirethisdeveloper/Minecraft-Bukkit-MsBlock-Plugin
 description: >
              Replace block with mob spawner of type, or determine type of clicked on.
 main: me.folkmagick.MsBlock.MsBlock
@@ -9,7 +11,6 @@ commands:
     msb:
         description: Change block to mobspawner or get spawner type.
         usage: /<command> <monster type> #distance
-        aliases: [msb,msblock]
 permissions:
     msblock.use:
         description: ability to use msblock ability
