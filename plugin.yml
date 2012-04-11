@@ -1,0 +1,16 @@
+name: MsBlock
+version: 1.0
+author: floatswitch
+description: >
+             Replace block with mob spawner of type, or determine type of clicked on.
+main: me.folkmagick.MsBlock.MsBlock
+softdepend: [Vault]
+commands:
+    msb:
+        description: Change block to mobspawner or get spawner type.
+        usage: /<command> <monster type> #distance
+        aliases: [msb,msblock]
+permissions:
+    msblock.use:
+        description: ability to use msblock ability
+        default: false
