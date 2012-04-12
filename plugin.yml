@@ -1,5 +1,5 @@
 name: MsBlock
-version: 1.0
+version: 1.1
 author: floatswitch
 website: http://www.folkmagick.com/
 source: https://github.com/hirethisdeveloper/Minecraft-Bukkit-MsBlock-Plugin
@@ -11,7 +11,13 @@ commands:
     msb:
         description: Change block to mobspawner or get spawner type.
         usage: /<command> <monster type> #distance
+    msbauto:
+        description: Turns on auto replace for msblock, uses max distance (10)
+        usage: /<command> (on|off) <monster type>
 permissions:
     msblock.use:
-        description: ability to use msblock ability
+        description: permission to use msblock
         default: false
+    msblock.auto:
+        description: permission to use auto block replace for msblock
+        default: off
